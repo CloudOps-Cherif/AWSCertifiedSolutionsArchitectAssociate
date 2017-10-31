@@ -29,16 +29,12 @@ Notes and code labs for A Cloud Guru's AWS Certified Solutions Architect Associa
     - [Provide access to IAM users in AWS accounts owned by third parties](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_common-scenarios_third-party.html)
     - [Provide access for services offered by AWS to AWS resources](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_common-scenarios_services.html)
     - [Provide access for externally authenticated users (identity federation)](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_common-scenarios_federated-users.html)
-- **Policy** - a document that defines one or more permissions.
-  - a policy can be attached to Users, Groups and/or roles
-  - [**Permissions and Policies**](http://docs.aws.amazon.com/IAM/latest/UserGuide/access.html)
-    - [**Permissions**](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_permissions.html) - Permissions let you specify who has access to AWS resources, and what actions they can perform on those resources.  permisions can be added by
-      - adding the user to a groups
+- [**Permission and Policy**](http://docs.aws.amazon.com/IAM/latest/UserGuide/access.html)
+    - [**Permission**](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_permissions.html) - Permissions let you specify who has access to AWS resources, and what actions they can perform on those resources.  Permisions can be added by
+      - adding the user to a group
       - copying permissions from another user
       - attaching existing policies directly to the user (an AWS Managed Policy)
-
-
-    - [**Policies**](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html) -
+    - [**Policy**](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html) - a document that defines one or more permissions
 
 IAM is global (regionless).  IAM users, groups and roles can be used in any region.
 
@@ -48,4 +44,7 @@ See the lab on creating an IAM users
 - neither can the User name and password be used for programmatic access.
 - programmatic access can be created, regenerated or taken away by editing the user's 'Security Credentials' in the console.
 
-
+[Ed](https://emurmur.signin.aws.amazon.com/console)
+- for programmatic access:
+  - accesskeyId: AKIAI74AP6GOU77S23JA
+  - accesskeySecret: 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
